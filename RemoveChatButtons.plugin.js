@@ -170,7 +170,7 @@ module.exports = (() => {
                         id: 'inviteButton',
                         name: 'Remove Invite Button',
                         note: "Removes the invite button from the channel list entries. (It's also available in the context menu and the server settings anyway.)",
-                        value: false,
+                        value: true,
                     },
                 ],
             },
@@ -184,7 +184,7 @@ module.exports = (() => {
                         id: 'cameraPanelButton',
                         name: 'Remove Camera Panel Button',
                         note: 'Removes the camera button from the voice chat panel in the bottom left.',
-                        value: false,
+                        value: true,
                     },
                     {
                         type: 'switch',
